@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-lightHover: #fcf4ff;
+    --color-darkHover: #2a004a;
+    --color-darkTheme: #11001f;
+    --color-light: #f2e8dc;
+    --color-dark: #204c4b;
+
+    --font-Outfit: 'Outfit', sans-serif;
+    --font-Ovo: 'Ovo', serif;
+}
+  
+* {
+  font-family: Outfit;
+}
