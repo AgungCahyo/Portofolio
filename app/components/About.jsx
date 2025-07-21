@@ -60,9 +60,6 @@ const About = () => {
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <li
                 key={index}
-                // data-aos="fade-up"
-                // data-aos-delay={index * 300}
-                // data-aos-once="true"
                 className="group transition will-change-transform duration-300 ease-in-out border border-dark dark:border-gray-600 rounded-xl p-6 cursor-pointer hover:-translate-y-2 shadow-lg hover:bg-dark dark:hover:bg-gray-800"
               >
                 <Image src={icon} alt={title} className="w-7 mt-3 mx-auto" />

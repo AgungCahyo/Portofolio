@@ -4,7 +4,7 @@ import { assets } from '../../assets/assets'
 
 const Footer = () => {
   return (
-    <footer className="bg-dark dark:bg-black py-10 px-[12%] dark:border-gray-700 transition-colors duration-500">
+    <footer className="bg-dark dark:bg-black py-10 px-[12%] bottom-0 dark:border-gray-700 transition-colors duration-500">
       <div className="flex flex-col items-center gap-4">
         {/* Logo */}
         <Image src={assets.logo} alt="logo" className="w-36 dark:hidden mb-2" />

@@ -1,15 +1,15 @@
 import React from "react";
-import { notFound } from "next/navigation";
 import { serviceDetailData } from "../../../assets/services_data";
+import Image from "next/image";
 
-export default function ServiceDetailPage({ params }) {
-  const { slug } = params;
+export default async function ServiceDetailPage({ params }) {
+  const { slug } = await params;
+
   const service = serviceDetailData.find((s) => s.slug === slug);
 
-  if (!service) return notFound();
-
   return (
-    <div className="max-w-3xl mx-auto py-12 px-4">
+    <div className="max-w-6xl items-center justify-center mx-auto py-30 bg-light px-4 ">
+     <Image src={service.image} alt={service.title} width={800} height={400} className="rounded-lg border-2 border-dark mb-6 w-full" />
       <h1 className="text-3xl font-bold mb-4">{service.title}</h1>
       <h3 className="text-lg text-gray-600 dark:text-gray-400 mb-6 italic">
         {service.subtitle}

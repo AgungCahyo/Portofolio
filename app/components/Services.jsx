@@ -14,16 +14,16 @@ const Services = () => {
       </p>
 
       {/* Responsive grid layout */}
-      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 my-10 items-center '>
         {serviceData.map(({ icon, title, description, link }, index) => (
           <div
             key={index}
             className='group border border-dark dark:border-gray-600 rounded-lg px-8 py-12 hover:shadow-xl cursor-pointer hover:bg-dark dark:hover:bg-gray-800 hover:-translate-y-1 duration-500 transition-all'
           >
-            <Image src={icon} alt={title} className='w-10 mx-auto rounded-md group-hover:border-light group-hover:border'/>
+            <Image src={icon} alt={title} className='w-10 mx-auto rounded-md group-hover:border-light group-hover:border items-center text-center'/>
             <h3 className='text-lg my-4 group-hover:text-light text-dark dark:text-gray-200 text-center'>{title}</h3>
             <p className='text-sm group-hover:text-light text-dark dark:text-gray-400 leading-5 text-center'>{description}</p>
-            <a href={link} className='flex items-center group-hover:bg-light group-hover:text-dark max-w-[150px] gap-2 text-sm mt-5 justify-center border border-dark rounded-2xl group-hover:border-light text-black dark:text-white'>
+            <a href={link} className='flex items-center group-hover:bg-light group-hover:text-dark max-w-[150px] justify-center gap-2 text-sm mt-5 border border-dark rounded-2xl group-hover:border-light text-black dark:text-white'>
               Read More <Image src={assets.right_arrow} alt="arrow" className='w-4'/>
             </a>
           </div>

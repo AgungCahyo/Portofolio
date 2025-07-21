@@ -1,6 +1,7 @@
 import React from 'react'
 import { assets, workData } from '../../assets/assets'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const Work = () => {
   return (
@@ -34,9 +35,11 @@ const Work = () => {
           <h3 className='text-light group-hover:text-dark font-semibold line-clamp-1'>{project.title}</h3>
           <p className='text-sm text-dark group-hover:text-light px-3 rounded-2xl border-light bg-light group-hover:bg-dark dark:text-gray-400 line-clamp-2'>{project.description}</p>
         </div>
+          <a href={project.link}>
         <div className='flex-shrink-0 w-9 h-9 rounded-full border border-gray-800 dark:border-white flex items-center justify-center bg-light dark:bg-gray-700 group-hover:bg-dark dark:group-hover:bg-blue-500 transition-colors duration-300 shadow-[2px_2px_0_#000] dark:shadow-[2px_2px_0_#fff]'>
           <Image src={assets.send_icon} alt='send' className='w-4' />
         </div>
+          </a>
       </div>
     </div>
   ))}

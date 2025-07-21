@@ -99,22 +99,26 @@ export const workData = [
   {
      title: "Brand Kaos: Concept Visual",
     description: "Desain logo, spanduk, dan landing page via Vercel.",
-    bgImage: "/work1.png",
+    bgImage: "/work7.png",
+    link:"./project/brand-kaos-concept-visual"
   },
   {
     title: "Konten & Visual Produk",
     description: "Styling produk, fotografi, dan copy untuk F&B lokal.",
-    bgImage: "/work2.png",
+    bgImage: "/work11.jpg",
+    link:"./project/konten-dan-visual-produk"
   },
   {
    title: "Tulisan di Medium",
     description: "Catatan ringan seputar kerja kreatif dan sistem.",
-    bgImage: "/work3.png",
+    bgImage: "/wok8.png",
+    link:"./project/menjaga-identitas-di-era-seragam"
   },
   {
    title: "Sistem Menu Resto",
     description: "Strukturisasi menu, sistem HPP, dan dokumentasi visual.",
     bgImage: "/work4.png",
+    link:"./project/sistem-menu-resto"
   },
 ];
 
@@ -123,27 +127,27 @@ export const serviceData = [
     icon: assets.Development_dark,
     title: "Menu & Beverage Development",
     description: "Pengembangan menu minuman yang efisien, menarik, dan sesuai target pasar.",
-    link: "/services/[slug]",
+    link: "/services/menu-beverage-development",
   },
   {
     icon: assets.Costing_dark,
     title: "HPP & Menu Costing System",
     description:
       "Perhitungan ulang HPP untuk efisiensi dan profitabilitas bisnis F&B.",
-    link: "",
+    link: "/services/hpp-menu-costing-system",
   },
   {
     icon: assets.Copywriting_dark,
     title: " Menu Structuring & Copywriting",
     description:
       "Menyusun ulang struktur menu agar mudah dipesan, menarik secara visual, dan selaras dengan branding.",
-    link: "",
+    link: "/services/menu-structuring-copywriting",
   },
   {
     icon: assets.Visual_dark,
     title: "Product Styling & Visual Content",
     description: "Visualisasi produk yang menggugah selera dan cocok untuk keperluan marketing.",
-    link: "",
+    link: "/services/product-styling-visual-content",
   },
 ];
 
