@@ -30,10 +30,10 @@ const Work = () => {
       />
 
       {/* Overlay Box */}
-      <div className='absolute bottom-5 left-1/2 transform group -translate-x-1/2 w-11/12 bg-dark dark:bg-gray-900/90 backdrop-blur-md rounded-lg px-5 py-4 flex items-center justify-between gap-4 transition-all duration-300 group-hover:bottom-7 group-hover:bg-light'>
-        <div className='text-light group-hover:text-dark dark:text-white'>
-          <h3 className='text-light group-hover:text-dark font-semibold line-clamp-1'>{project.title}</h3>
-          <p className='text-sm text-dark group-hover:text-light px-3 rounded-2xl border-light bg-light group-hover:bg-dark dark:text-gray-400 line-clamp-2'>{project.description}</p>
+      <div className='absolute bottom-5 left-1/2 transform group -translate-x-1/2 w-11/12 bg-transparent dark:bg-gray-900/90 border-2 border-dark rounded-lg px-5 py-4 flex items-center justify-between gap-4 transition-all duration-300 group-hover:bottom-7 group-hover:bg-light'>
+        <div className='text-dark group-hover:text-dark dark:text-white'>
+          <h3 className='text-dark group-hover:text-dark font-semibold line-clamp-1'>{project.title}</h3>
+          <p className='text-sm text-light group-hover:text-light px-3 rounded-2xl border-dark bg-dark group-hover:bg-dark dark:text-gray-400 line-clamp-2'>{project.description}</p>
         </div>
           <a href={project.link}>
         <div className='flex-shrink-0 w-9 h-9 rounded-full border border-gray-800 dark:border-white flex items-center justify-center bg-light dark:bg-gray-700 group-hover:bg-dark dark:group-hover:bg-blue-500 transition-colors duration-300 shadow-[2px_2px_0_#000] dark:shadow-[2px_2px_0_#fff]'>
