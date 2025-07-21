@@ -49,7 +49,7 @@ const About = () => {
             data-aos-duration="1000"
             className="mb-10 max-w-2xl mx-auto font-Ovo text-dark dark:text-gray-300"
           >
-            Saya bergerak di ruang antara rasa, bentuk, dan makna. Menyusun
+            Saya bergerak di dalam ruang antara rasa, bentuk, dan makna. Menyusun
             sistem, merancang pengalaman, dan menulis cerita di baliknya. Fokus
             saya ada pada detail kecil yang menyatukan kreativitas, keramahan,
             dan ketepatan.
