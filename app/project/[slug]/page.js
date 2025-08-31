@@ -39,9 +39,10 @@ export default function ProjectDetailPage({ params }) {
           <h1 className="text-4xl font-bold bg-gradient-to-r from-caribbean via-mountain to-mint bg-clip-text text-transparent font-ovo">
             Project Not Found
           </h1>
-          <p className="text-antiflash/80 font-outfit">
-            The project you're looking for doesn't exist or has been moved.
-          </p>
+        <p className="text-antiflash/80 font-outfit">
+  The project you&apos;re looking for doesn&apos;t exist or has been moved.
+</p>
+
         </div>
       </div>
     );

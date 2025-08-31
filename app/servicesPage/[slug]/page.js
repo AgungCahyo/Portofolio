@@ -57,8 +57,9 @@ export default function ServiceDetailPage({ params }) {
             Service Not Found
           </h1>
           <p className="text-antiflash/80 font-outfit">
-            The service you're looking for doesn't exist or has been moved.
-          </p>
+  The service you&apos;re looking for doesn&apos;t exist or has been moved.
+</p>
+
         </div>
       </div>
     );
