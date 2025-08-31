@@ -9,27 +9,26 @@ import Footer from "./components/Footer";
 const outfit = Outfit({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
+  variable: "--font-outfit",
 });
 
 const ovo = Ovo({
   subsets: ["latin"],
   weight: ["400"],
+  variable: "--font-ovo",
 });
 
 export const metadata = {
   title: "Agung Cahyo Prasetyo",
-  description: "",
+  description:  "Portofolio digital dan karya dari Agung Cahyo Prasetyo, front-end developer dan penulis konten reflektif.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${outfit.className} ${ovo.className} antialiased bg-light`}
-      >
-        <Navbar />
+    <html lang="en" className={`${outfit.variable} ${ovo.variable}`}>
+  <body className="antialiased bg-light">
+
         {children}
-        <Footer />
         <Analytics />
         <SpeedInsights />
       </body>

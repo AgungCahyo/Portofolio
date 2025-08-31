@@ -8,12 +8,9 @@ import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-light dark:bg-black transition-colors duration-300">
+    <main className="min-h-screen bg-light dark:bg-black transition-colors duration-300  md:ml-64">
+      <Navbar/>
       <Header />
-      <About />
-      <Services />
-      <Work />
-      <Contact />
     </main>
   );
 }

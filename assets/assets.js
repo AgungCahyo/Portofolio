@@ -1,4 +1,3 @@
-
 import code_icon from "./code-icon.png";
 import code_icon_dark from "./code-icon-dark.png";
 import edu_icon from "./edu-icon.png";
@@ -10,6 +9,9 @@ import firebase from "./firebase.png";
 import figma from "./figma.png";
 import git from "./git.png";
 import mongodb from "./mongodb.png";
+import nextjs from "./nextjs.png";
+import tailwind from "./tailwind.png";
+import react from "./react.png";
 import right_arrow_white from "./right-arrow-white.png";
 import logo from "./logo.png";
 import logo_dark from "./logo_dark.png";
@@ -40,11 +42,11 @@ import Canva from "./canva.png";
 import Development_dark from "./development-dark.png";
 import Visual_dark from "./visual-dark.png";
 import Costing_dark from "./costing-dark.png";
-import Copywriting_dark from "./copywriting-dark.png"
+import Copywriting_dark from "./copywriting-dark.png";
 import Development_light from "./development-light.png";
 import Visual_light from "./visual-light.png";
 import Costing_light from "./costing-light.png";
-import Copywriting_light from "./copywriting-light.png"
+import Copywriting_light from "./copywriting-light.png";
 
 export const assets = {
   Copywriting_dark,
@@ -68,6 +70,9 @@ export const assets = {
   figma,
   git,
   mongodb,
+  react,
+  tailwind,
+  nextjs,
   right_arrow_white,
   logo,
   logo_dark,
@@ -97,28 +102,35 @@ export const assets = {
 
 export const workData = [
   {
-     title: "Brand Kaos: Concept Visual",
+    title: "Brand Kaos: Concept Visual",
     description: "Desain logo, spanduk, dan landing page via Vercel.",
     bgImage: "/work7.png",
-    link:"./project/brand-kaos-concept-visual"
+    link: "./project/brand-kaos-concept-visual",
   },
   {
     title: "Konten & Visual Produk",
     description: "Styling produk, fotografi, dan copy untuk F&B lokal.",
     bgImage: "/work11.jpg",
-    link:"./project/konten-dan-visual-produk"
+    link: "./project/konten-dan-visual-produk",
   },
   {
-   title: "Tulisan di Medium",
+    title: "Tulisan di Medium",
     description: "Catatan ringan seputar kerja kreatif dan sistem.",
     bgImage: "/wok8.png",
-    link:"./project/menjaga-identitas-di-era-seragam"
+    link: "./project/menjaga-identitas-di-era-seragam",
   },
   {
-   title: "Sistem Menu Resto",
+    title: "Sistem Menu Resto",
     description: "Strukturisasi menu, sistem HPP, dan dokumentasi visual.",
     bgImage: "/work4.png",
-    link:"./project/sistem-menu-resto"
+    link: "./project/sistem-menu-resto",
+  },
+  {
+    title: "Recipe Book App",
+    description:
+      "Aplikasi mobile untuk kelola bahan, resep, dan hitung HPP.",
+    bgImage: "/work12.png",
+    link: "./project/recipe-book-app",
   },
 ];
 
@@ -126,28 +138,30 @@ export const serviceData = [
   {
     icon: assets.Development_dark,
     title: "Menu & Beverage Development",
-    description: "Pengembangan menu minuman yang efisien, menarik, dan sesuai target pasar.",
-    link: "/services/menu-beverage-development",
+    description:
+      "Pengembangan menu minuman yang efisien, menarik, dan sesuai target pasar.",
+    link: "/servicesPage/menu-beverage-development",
   },
   {
     icon: assets.Costing_dark,
     title: "HPP & Menu Costing System",
     description:
       "Perhitungan ulang HPP untuk efisiensi dan profitabilitas bisnis F&B.",
-    link: "/services/hpp-menu-costing-system",
+    link: "/servicesPage/hpp-menu-costing-system",
   },
   {
     icon: assets.Copywriting_dark,
-    title: " Menu Structuring & Copywriting",
+    title: "Menu Structuring & Copywriting",
     description:
       "Menyusun ulang struktur menu agar mudah dipesan, menarik secara visual, dan selaras dengan branding.",
-    link: "/services/menu-structuring-copywriting",
+    link: "/servicesPage/menu-structuring-copywriting",
   },
   {
     icon: assets.Visual_dark,
     title: "Product Styling & Visual Content",
-    description: "Visualisasi produk yang menggugah selera dan cocok untuk keperluan marketing.",
-    link: "/services/product-styling-visual-content",
+    description:
+      "Visualisasi produk yang menggugah selera dan cocok untuk keperluan marketing.",
+    link: "/servicesPage/product-styling-visual-content",
   },
 ];
 
@@ -156,27 +170,34 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Skill Teknis",
-    description: "Membangun antarmuka web menggunakan HTML, CSS, JavaScript, React.js, dan Tailwind CSS untuk kebutuhan proyek nyata. Terbiasa merancang konten visual, mockup brand, serta dokumentasi produk menggunakan Canva dan tool ringan lainnya.",
+    description:
+      "Menguasai HTML, CSS, JavaScript, React.js, Tailwind CSS, dan Next.js. Terbiasa membangun UI responsif, animasi interaktif, hingga deployment via Vercel. Juga paham dasar backend (API, Firebase, MongoDB).",
   },
   {
     icon: assets.edu_icon,
     iconDark: assets.edu_icon_dark,
     title: "Pendidikan",
-    description: "Belajar secara otodidak melalui eksperimen proyek langsung dan eksplorasi mandiri. Menguasai dasar desain visual, copywriting naratif, serta coding menggunakan JavaScript, React, dan Tailwind.",
+    description:
+      "Belajar secara otodidak lewat proyek nyata dan eksperimen mandiri. Fokus pada front-end modern stack, UI/UX, dan integrasi dengan backend ringan.",
   },
   {
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-   description: "Terlibat dalam pengembangan sistem menu restoran, desain visual untuk brand lokal, dan konten media sosial. Juga merancang beberapa konsep brand pribadi yang masih disimpan rapi sebagai arsip mimpi.",
+    description:
+      "Mengerjakan sistem menu restoran, aplikasi resep, brand visual untuk UMKM, serta portfolio digital. Juga aktif membuat konsep brand dan dokumentasi proses.",
   },
 ];
 
 export const toolsData = [
+  { name: "React", icon: assets.react },
+  { name: "Next.js", icon: assets.nextjs },
+  { name: "Tailwind CSS", icon: assets.tailwind },
   { name: "VS Code", icon: assets.vscode },
+  { name: "Git", icon: assets.git },
+  { name: "Figma", icon: assets.figma },
   { name: "Canva", icon: assets.Canva },
   { name: "Notion", icon: assets.Notion },
-  { name: "Figma", icon: assets.figma },
-  { name: "Git", icon: assets.git },
+  { name: "Firebase", icon: assets.firebase },
   { name: "MongoDB", icon: assets.mongodb },
 ];

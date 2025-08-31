@@ -1,22 +1,42 @@
 @import "tailwindcss";
 
-html {
-  scroll-behavior: smooth;
-}
-
-@custom-variant dark (&:where(.dark, .dark *));
-
 @theme {
-    --color-lightHover: #fcf4ff;
-    --color-darkHover: #2a004a;
-    --color-darkTheme: #11001f;
-    --color-light: #f2e8dc;
-    --color-dark: #204c4b;
+  --color-richblack: #1A1A1A;   /* hitam elegan */
+  --color-darkgreen: #2C2C2C;   /* abu gelap */
+  --color-bangladesh: #4A3F35;  /* coklat gelap aksen */
+  --color-mountain: #D97706;    /* gold utama */
+  --color-caribbean: #F59E0B;   /* orange hangat */
+  --color-antiflash: #FAF9F6;   /* putih cream */
 
-    --font-Outfit: 'Outfit', sans-serif;
-    --font-Ovo: 'Ovo', serif;
-}
-  
-* {
-  font-family: Outfit;
+  --color-pine: #262626;        /* hitam lembut */
+  --color-basil: #404040;       /* abu medium */
+  --color-forest: #EAB308;      /* yellow-gold terang */
+  --color-frog: #FCD34D;        /* soft gold pastel */
+  --color-mint: #FEF3C7;        /* cream pastel */
+  --color-stone: #A1A1A1;       /* abu netral */
+  --color-pistachio: #F5F5F4;   /* abu terang/putih hangat */
+
+  --color-background: #FAF9F6;  /* cream background */
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+
+  --color-gray-100: #F5F5F4;
+  --color-gray-200: #E7E5E4;
+  --color-gray-300: #D6D3D1;
+  --color-gray-500: #78716C;
+  --color-gray-700: #44403C;
+  --color-gray-900: #1C1917;
+
+  --color-success: #D97706;  /* gold untuk success */
+  --color-warning: #F59E0B;  /* orange tetap warning */
+  --color-error: #DC2626;    /* merah untuk error */
+
+  --font-arch: "ArchRegular", sans-serif;
+  --font-arch-bold: "ArchBold", sans-serif;
+  --font-arch-thin: "ArchThin", sans-serif;
+
+  --font-outfit: "Outfit", sans-serif;
+  --font-ovo: "Ovo", serif;
+
+  --text-80: 5rem; /* alias 80px */
 }
