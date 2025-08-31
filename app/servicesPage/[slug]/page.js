@@ -251,9 +251,10 @@ export default function ServiceDetailPage({ params }) {
                   <MessageCircle className="w-8 h-8 text-richblack" />
                 </div>
                 <h3 className="text-xl font-bold text-antiflash font-outfit">Ready to Start?</h3>
-                <p className="text-antiflash/80 font-outfit text-sm">
-                  Let's discuss your project and see how this service can help you achieve your goals.
-                </p>
+<p className="text-antiflash/80 font-outfit text-sm">
+  Let&apos;s discuss your project and see how this service can help you achieve your goals.
+</p>
+
                 <a
                   href="/contact"
                   className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-caribbean to-mountain hover:from-mountain hover:to-mint text-richblack font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl font-outfit"
